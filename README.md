@@ -36,5 +36,8 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 - Recall: 0.80
 
 ## Summary
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+- The models have accuracy in the 0.57 to the 0.70 range. 
+- The precision is 0.99 for all, indicating that when a risky creditor is identified they are nearly guarenteed to be a risky creditor.
+- However, the recall ranges from 0.57 to 0.87. This is problematic, as it means some of the models barely identify most of the risky creditors.
+
+The Balanced Random Forst Classifier is the best model, followed by the Easy Ensemble AdaBoost Classifier. The RFC shows a high precision and high recall, meaning it's resutls can be easily trusted. The EEABC shows similarly high statistics, being beaten by the RFC in recall. 
