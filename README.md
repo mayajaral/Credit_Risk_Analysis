@@ -7,33 +7,33 @@ The purpose of the credit risk analysis is to use credit data from the peer-to-p
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 ### Naive Random Oversampling with Logistic Regression
 - Balanced Accuracy Score: 0.61
-- Precision:
-- Recall:
+- Precision: 0.99
+- Recall: 0.65
 
 ### SMOTE Oversampling with Logistic Regression
 - Balanced Accuracy Score: 0.58
-- Precision:
-- Recall:
+- Precision: 0.99
+- Recall: 0.69
 
 ### Undersampling with Logistic Regression
 - Balanced Accuracy Score: 0.57
-- Precision:
-- Recall:
+- Precision: 0.99
+- Recall: 0.63
 
 ### Combination (Over and Under) Sampling with Logistic Regression
 - Balanced Accuracy Score: 0.62
-- Precision:
-- Recall:
+- Precision: 0.99
+- Recall: 0.57
 
 ### Balanced Random Forest Classifier
 - Balanced Accuracy Score: 0.69
-- Precision:
-- Recall:
+- Precision: 0.99
+- Recall: 0.87
 
 ### Easy Ensemble AdaBoost Classifier
 - Balanced Accuracy Score: 0.70
-- Precision:
-- Recall:
+- Precision: 0.99
+- Recall: 0.80
 
 ## Summary
 There is a summary of the results (2 pt)
